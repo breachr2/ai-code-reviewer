@@ -8,11 +8,11 @@ This is the backend server for the AI Code Reviewer tool.
 - Returns AI-generated code review based on readability, style, bugs, and best practices
 
 ## Libraries
-- Node.js + Express.js -- API server
-- OpenAI SDK -- Interface with OpenAI GPT models
+- Node.js + Express.js - API server
+- OpenAI SDK - Interface with OpenAI GPT models
 
 ## Model Used
-Currently using the gpt-3.5-turbo model, since it was one of the cheapest option. Some other models I considered was the gpt-4o, and gpt-4.1-mini. They are all priced around the same so any of them would work with this app.
+Currently using the gpt-3.5-turbo model, since it was one of the cheapest option. Some other models I considered was the gpt-4o, and gpt-4.1-mini. They are all priced around the same and any of them would work with this app so it can be changed.
 
 ## How to set up and start server
 1. Move into the server directory
